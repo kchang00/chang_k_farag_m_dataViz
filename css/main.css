@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+body, html 
+{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #E0FFFF;
+}
+
+li, p
+{
+  line-height: 1.5;
+}
+
+#container
+{
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:120px;
+    margin-right:120px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+/* Gets rid of bulleted list */
+
+ul 
+
+{
+   list-style: none;
+}
+
+ul li
+{
+
+  display: inline;
+
+}
+
+#mainHeader
+{
+	margin: 0 auto;
+	margin-bottom: 75px;
+	padding: 10px 10px;
+	background-color: #87CEFA;
+	height: 100px;
+	width:960px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.stat
+{
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px 10px;
+	width:960px;
+}
+
+/* Footer */
+
+footer
+{
+    padding-top: 100px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+.footerButtons
+{
+  text-align: right;
+}
